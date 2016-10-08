@@ -1,0 +1,179 @@
+* {transition: all .1s ease-in;
+  box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	min-height: 100%;
+	border: 35px solid #2B81AC;
+	background: #3399CC;
+}
+
+.ba-container {
+	margin: 0 auto;
+	max-width: 1024px;
+	padding: 0 20px;
+	font-size: 0;
+}
+
+.ba-header {
+	color: #fff;
+	padding-left: 30px;
+	font-size: 20px;
+}
+.wi  {
+	font-size: 26px;
+	color: #fff;
+}
+
+.ba-cities {
+	font-size: 0;
+	padding: 3px;
+}
+
+
+.ba-cities li {
+	list-style: none;
+	border: 5px solid #fff;
+	text-align: center;
+	font-size: 16px;
+}
+.ba-temperarure {
+	display: inline-block;
+	color: #fff;
+}
+.ba-temperarure::after {
+    content: "°C";
+}
+
+.ba-cities:hover li{
+ opacity:0.60;
+}
+.ba-cities:hover li:hover{
+ opacity:1;
+}
+
+.ba-city-lisbon-span-1 {
+	background: #3399CC;
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 30px 10px;
+	width: 50%;
+	font-size: 20px;
+	margin:  0;
+}
+
+.ba-city-name {
+	color: #fff;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.ba-city-paris {
+	background: #33CCCC;
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 30px 15px;
+	width: 25%;
+	font-size: 20px;
+	margin:  0;
+}
+.ba-city-belgrade {
+	background: #996699;
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 30px 20px;
+	width: 25%;
+	font-size: 20px;s
+	margin:  0;
+}
+
+.ba-city-moscow {
+	background: #C24747;
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 30px 20px;
+	width: 25%;
+	font-size: 15px;
+	margin:  0;
+}
+
+.ba-city-tel-aviv {
+	background: #E2674A;
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 30px 20px;
+	width: 25%;
+	font-size: 15px;
+	margin:  0;
+}
+
+.ba-city-cair {
+	background: #FFCC66;
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 30px 20px;
+	width: 25%;
+	font-size: 15px;
+	margin:  0;
+}
+
+.ba-city-new-york {
+	background: #99CC99;
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 30px 20px;
+	width: 25%;
+	font-size: 20px;
+	margin:  0;
+}
+
+.ba-city-new-delphi {
+	background: #669999;
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 30px 20px;
+	width: 25%;
+	font-size: 20px;
+	margin:  0;
+}
+
+.ba-city-san-francisco-span-2 {
+	background: #CC6699;
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 30px 10px;
+	width: 50%;
+	font-size: 20px;
+	margin:  0;
+}
+
+.ba-city-tokyo {
+	background: #339966;
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 30px 17px;
+	width: 25%;
+	font-size: 20px;
+	margin:  0;
+}
+
+.ba-city-sydney-span-3 {
+	background: #666699;
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 30px 45px;
+	width: 100%;
+	font-size: 20px;
+	margin:  0;
+}
+
+.ba-footer p {
+	color: #fff;
+	font-size: 20px;
+	padding-left: 40px;
+}
